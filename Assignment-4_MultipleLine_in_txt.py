@@ -12,3 +12,5 @@ with open("mylife.txt", "a") as contents:
         line_ask = input("Enter line: ")
         # Write the lines in the text file
         contents.write(str(line_ask) + "\n")
+        # Ask for another line
+        line_more = input("More lines? yes/no: ")
