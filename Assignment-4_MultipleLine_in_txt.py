@@ -6,3 +6,5 @@
 
 # Create  a file and open it
 with open("mylife.txt", "a") as contents:
+    # Use a while loop to ask the user for lines
+    while True:
