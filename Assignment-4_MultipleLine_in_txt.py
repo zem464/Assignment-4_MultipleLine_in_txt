@@ -14,3 +14,9 @@ with open("mylife.txt", "a") as contents:
         contents.write(str(line_ask) + "\n")
         # Ask for another line
         line_more = input("More lines? yes/no: ")
+        # if yes, continue
+        if line_more == "yes":
+            continue
+        # elif no, break
+        elif line_more == "no":
+            break
