@@ -8,3 +8,7 @@
 with open("mylife.txt", "a") as contents:
     # Use a while loop to ask the user for lines
     while True:
+        # Ask the user to input lines
+        line_ask = input("Enter line: ")
+        # Write the lines in the text file
+        contents.write(str(line_ask) + "\n")
