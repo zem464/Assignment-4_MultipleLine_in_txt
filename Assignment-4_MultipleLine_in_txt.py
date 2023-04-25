@@ -20,3 +20,6 @@ with open("mylife.txt", "a") as contents:
         # elif no, break
         elif line_more == "no":
             break
+        # else, put "invalid input"
+        else:
+            print("This is an invalid answer. Enter another input.")
