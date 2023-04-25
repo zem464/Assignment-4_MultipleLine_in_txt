@@ -9,11 +9,11 @@ with open("mylife.txt", "a") as contents:
     # Use a while loop to ask the user for lines
     while True:
         # Ask the user to input lines
-        line_ask = input("Enter line: ")
+        line_ask = input("\033[33m\033[1mEnter line: \033[35m\033[0m")
         # Write the lines in the text file
         contents.write(str(line_ask) + "\n")
         # Ask for another line
-        line_more = input("More lines? yes/no: ")
+        line_more = input("\033[32m\033[1mMore lines? \033[31myes/no: \033[35m\033[0m")
         # if yes, continue
         if line_more == "yes":
             continue
@@ -22,9 +22,9 @@ with open("mylife.txt", "a") as contents:
             break
         # else, put "invalid input"
         else:
-            print("This is an invalid answer. Enter another input.")
+            print("\033[31mThis is an invalid answer. Enter another input.")
             # Ask the user for a valid answer
-            line_ask = input("More lines? yes/no: ")
+            line_ask = input("\033[32m\033[1mMore lines? \033[31myes/no: \033[35m\033[0m")
             # If user input no, break
             if line_ask == "n":
                 break
