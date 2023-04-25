@@ -23,3 +23,8 @@ with open("mylife.txt", "a") as contents:
         # else, put "invalid input"
         else:
             print("This is an invalid answer. Enter another input.")
+            # Ask the user for a valid answer
+            line_ask = input("More lines? yes/no: ")
+            # If user input no, break
+            if line_ask == "n":
+                break
