@@ -47,6 +47,6 @@ See sample output:
 ### Contact
 Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
 
-**Project Link :** https://github.com/zem464/Assignment-4_MultipleLine_in_txt.git
+**Output Link :** https://drive.google.com/file/d/1otYy3hS0xn5NAIeQ2NSQHwaGGV0wnt-I/view?usp=drive_link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
